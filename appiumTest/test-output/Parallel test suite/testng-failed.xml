@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="methods" name="Failed suite [Parallel test suite]">
+  <test parallel="methods" name="score(failed)">
+    <classes>
+      <class name="test.ScoreTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.ScoreTest -->
+    </classes>
+  </test> <!-- score(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
